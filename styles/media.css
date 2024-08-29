@@ -1,0 +1,360 @@
+/*phone*/
+@media (max-width: 600px){
+    /*Navbar*/
+   .container{
+    width: 100% !important;
+   }
+   #list{
+    display: none;
+   
+   }
+   #bars{
+   display: block !important;
+   }
+   /*Hero*/
+   #hero .hero-title h1{
+    font-size: 30px; 
+}
+#hero .hero-title h2{
+    font-size: 25px;
+
+}
+
+   #hero .hero-box .box{
+    display: grid;
+    grid-template-columns:repeat(2,auto);
+   
+   }
+   #hero .hero-btn{
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+
+}
+#hero .hero-box h3{
+    font-size: 1rem;
+    text-transform: capitalize;
+
+}
+  /*See*/
+   #see .see-content {
+    grid-template-columns: repeat(1,auto) !important; 
+}
+#see h2{
+    font-size: 1rem;
+   
+}
+#see .see-content .see-col .col-title h4{
+    
+    font-size: 1rem;
+    
+}
+/*Tips*/
+#tips .tips-title{
+    font-size: .9rem;
+}
+#tips .tips-title p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+#tips .gallery{
+    grid-template-columns: repeat(1,auto);
+ }
+ /*Features*/
+ #features h2{
+    font-size: 1rem;
+}
+#features .content .country strong{
+    font-size: 1rem;
+}
+
+#features .content iframe{
+    width: 150px;
+    height:170px;
+    text-align: center;
+   
+}
+#features .content .country button{
+    padding: 10px 20px;
+    font-size: 1rem;
+ }
+ /*directory*/
+ #directory h2{
+    font-size: 1rem;
+   text-align: center;
+
+}
+#directory .gallery{
+    grid-template-columns: repeat(1,auto);
+}
+  /*slider*/
+  #slider h2{
+    font-size: 1.5rem;
+}
+  #slider span{
+    font-size: .8rem;
+}
+#slider .emotion .content{
+   width: 100%;
+   height: 100%;
+  
+}
+#slider .emotion img{
+    width: 50px;
+    height: 50%;
+}
+/*form*/
+#Contact h2{
+    font-size: 1.5rem;
+   
+}
+#Contact form{
+    width: 70%;
+}
+#Contact form button{
+   margin:auto;
+    font-size: 1rem;  
+}
+/*Subscribe*/
+#Subscribe{
+   justify-content: center;
+    padding: 20px 10px;
+
+}
+#Subscribe h2{
+    font-size: 1rem;
+    font-weight: 900px;
+}
+#Subscribe input{
+    padding: 2px 0;
+    border-radius: 15px;
+    width: 30%;
+    font-size: .7rem;
+    margin-inline: 5px; 
+}
+#Subscribe button{
+    border-radius: 15px;
+    padding: 10px 5px;
+    font-size: .7rem;
+    width: 15%;
+    text-align: center;
+}
+/*footer*/
+#foot .content{
+    display: grid;
+    grid-template-columns: repeat(1,auto);
+   
+}
+footer .last{
+    font-size: .8rem;
+   
+}
+
+
+}
+
+
+
+
+
+
+/*tablet*/
+@media (min-width: 600px) and (max-width: 768px){
+    /*Navbar*/
+    #list{
+        display: none;
+       
+       }
+       #bars{
+        display: block !important;
+       }
+       /*Hero*/
+       #hero .hero-box .box{
+        
+        display: grid;
+        grid-template-columns:repeat(2,auto);
+       
+       }
+       /*See*/
+       #see .see-content {
+        
+        grid-template-columns: repeat(2,auto);  
+    }
+    .container{
+        width: 95%;
+    }
+    #see .see-content .see-col .col-title{
+        flex-wrap: nowrap;
+    }
+    #see .see-content .see-col .col-title h4{
+        font-size: 1rem;
+    }
+    #see .see-content .see-col p{
+        font-size: 1rem;
+    }
+    /*Tips*/
+    #tips .tips-title{
+        font-size: .9rem;
+    }
+    #tips .tips-title p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    #tips .gallery{
+        grid-template-columns: repeat(2,auto);
+     }
+     /*Features*/
+     #features .content .country button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        transform: translateX(-40px);
+       
+}
+  /*directory*/
+  #directory h2{
+    font-size: 1.5rem;
+   text-align: center;
+
+}
+#directory .gallery{
+    grid-template-columns: repeat(2,auto);
+}
+  /*slider*/
+  #slider h2{
+    font-size: 2rem;
+}
+  #slider span{
+    font-size: 1rem;
+}
+#slider .emotion .content{
+   width: 100%;
+   height: 100%;
+  
+}
+#slider .emotion img{
+    width: 50px;
+    height: 50%;
+}
+/*form*/
+#Contact form{
+    width: 80%;
+}
+#Contact form button{
+   margin:auto;
+    font-size: 1.5rem;   
+}
+/*Subscribe*/
+#Subscribe h2{
+    font-size: 1.5rem;
+    font-weight: 900px;
+}
+#Subscribe input{
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 30%;
+    font-size: .8rem;
+    margin-inline: 5px; 
+}
+#Subscribe button{
+    border-radius: 15px;
+    padding: 10px 5px;
+    font-size: .8rem;
+    width: 20%;
+    text-align: center;
+}
+/*footer*/
+#foot .content{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 20px;
+   
+}
+footer .last{
+    font-size: .8rem;
+   
+}
+
+
+
+       
+
+}
+
+
+
+/*small screen*/
+@media (min-width: 768px) and (max-width: 1024px){
+    /*Navbar*/
+    #list{
+        display: none;
+       }
+       #bars{
+        display: block !important;
+       }
+       /*Hero*/
+       #hero .hero-box .box{
+       
+        display: grid;
+        grid-template-columns:repeat(3,auto);
+        
+      
+       }
+       /*See*/
+       #see .see-content {
+        grid-template-columns: repeat(3,auto); 
+    }
+    #see .see-content .see-col .col-title{
+        flex-wrap: nowrap;
+    }
+    #see .see-content .see-col .col-title h4{
+        font-size: .7rem;
+    }
+    #see .see-content .see-col p{
+        font-size: 1rem;
+    }
+    /*Tips*/
+    #tips .tips-title{
+        font-size: .9rem;
+    }
+    #tips .tips-title p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    #tips .gallery{
+        grid-template-columns: repeat(3,auto);
+     }
+     /*Features*/
+     #features .content .country button{
+        padding: 10px 20px;
+        font-size: 1rem;
+        transform: translateX(-50px);
+       
+}
+   /*directory*/
+   #directory h2{
+    font-size: 1.7rem;
+   text-align: center;
+
+}
+#directory .gallery{
+    grid-template-columns: repeat(3,auto);
+}
+/*footer*/
+#foot .content{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 20px;
+   
+}
+footer .last{
+    font-size: .8rem;
+   
+}
+
+  
+
+
+       
+
+}
+      
